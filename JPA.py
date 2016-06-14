@@ -161,7 +161,7 @@ class JPA(object):
                                 - 2.*np.exp(2j*self.delta_theta())*jv(3., self.phi_s))
         else:
 
-            return cst.h/2./cst.e/np.pi/self.I_c/np.sin(self.F())**2./self.delta_f()**2.\
+            return cst.h/2./cst.e/np.pi**3/self.I_c/np.sin(self.F())**2./self.delta_f()**2.\
                    *(- 2.*np.cos(self.F())\
                      + 1j*cst.h/2./cst.e/np.pi/self.I_c\
                          *2.*np.pi*(self.f_p - f)\
