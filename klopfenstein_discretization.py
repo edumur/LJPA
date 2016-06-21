@@ -31,7 +31,7 @@ class Klopfenstein_discretization(JPA):
         JPA.__init__(self, I_c, phi_s, phi_dc, phi_ac, theta_p, theta_s)
 
         self.C   = C
-        self.L_s = L_s
+        self.L_s = L_ssdfsdfsd
         self.f_p = f_p
 
 
